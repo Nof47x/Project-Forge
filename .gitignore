@@ -1,0 +1,14 @@
+.build/
+.runtime/
+
+*.zip
+*.yyz
+*.exe
+*.dll
+*.log
+*.tmp
+*.generated.*
+
+*.autosave
+*.user
+*.local
