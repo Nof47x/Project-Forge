@@ -1,4 +1,6 @@
 points = 0
-player_respawn_time = -1; // -1 = nada pra fazer
+vida = 1
+//Sistema de respawn (não mexer)
+player_respawn_time = -1;
 respawn_x = 0;
 respawn_y = 0;
