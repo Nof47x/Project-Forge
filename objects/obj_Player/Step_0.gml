@@ -14,7 +14,7 @@ if keyboard_check(ord("D"))
 {
 	x += 3;
 }
-image_angle = point_direction(x, y, mouse_x, mouse_y);
+
 
 if mouse_check_button_pressed(mb_left)
 {
@@ -22,3 +22,4 @@ if mouse_check_button_pressed(mb_left)
 }
 
 move_wrap(true, true, 0)
+

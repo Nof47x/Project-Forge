@@ -1,1 +1,2 @@
-instance_create_layer(500, 500, "Instances", obj_Player);
+invencivel = false
+draw_set_alpha(1)

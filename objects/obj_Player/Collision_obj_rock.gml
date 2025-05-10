@@ -1,3 +1,8 @@
-obj_game.life -= 1
 effect_create_above(ef_explosion, x, y, 1, c_white)
-obj_game.points = 0
+
+if (!invencivel) {
+    vida -= 1;
+    invencivel = true;
+    alarm[0] = room_speed * 5; // 5 segundos de invencibilidade
+    mask_index = -1; // sem colisão
+}

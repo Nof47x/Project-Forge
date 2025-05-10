@@ -1,2 +1,3 @@
 speed = 10;
-direction = obj_Player.image_angle;
+direction = point_direction(x, y, mouse_x, mouse_y);
+
