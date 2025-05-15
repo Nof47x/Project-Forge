@@ -1,0 +1,1 @@
+obj_Player.madeira += 1
